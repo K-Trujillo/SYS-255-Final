@@ -15,4 +15,3 @@ try {
 } catch {
 	Write-Host "Error in removing User, please try again"
 }
-
