@@ -4,7 +4,7 @@ try {
 	$publicIP = Invoke-RestMethod -Uri "https://api64.ipify.org?format=text"
 
 	if (-not $publicIP) {
-		throw "Failed to retrieve public IP Address.
+		throw "Failed to retrieve public IP Address."
 }
 	$geoInfo = Invoke-RestMethod -Uri "http://ip-api.com/json/$publicIP"
 
