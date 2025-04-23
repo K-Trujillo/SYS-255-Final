@@ -1,5 +1,3 @@
-
-
 try {
 	$ip = Get-NetIPAddress | Where-Object { $_.AddressFamily -eq "IPv4" }
 
@@ -15,3 +13,5 @@ catch {
 	Write-Output "An error occurred while retrieving IP information:"
 	Write-Output $_.Exception.Message
 }
+
+Read-Host "Press Enter to exit"
