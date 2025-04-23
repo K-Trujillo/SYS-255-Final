@@ -1,7 +1,7 @@
 try {
 	Write-Host "Determining IP Geolocation Info..."
 
-	$publicIP = Invoke-RestMethod -Uri "https://ip-api64.ipify.org?format=text"
+	$publicIP = Invoke-RestMethod -Uri "https://api64.ipify.org?format=text"
 
 	$geoInfo = Invoke-RestMethod -Uri "http://ip-api.com/json/$publicIP"
 
