@@ -1,7 +1,7 @@
 
 
 try {
-	$ip = Get-NetIPAddress | Where-Object { $._AddressFamily -eq "IPv4" }
+	$ip = Get-NetIPAddress | Where-Object { $_.AddressFamily -eq "IPv4" }
 
 	if ($ip) {
 		Write-Output "IP Address Info:"
