@@ -9,11 +9,11 @@ try {
 	
 	Start-Sleep -Seconds 3
 	
-	Write-Output "'nHere are your new details:"
+	Write-Output "'nHere are your new details:'n"
 	
 	Get-NetIPConfiguration | Select-Object IPv4Address, InterfaceAlias, DNSServer
 	
-	Read-Host "'nPress Enter to Exit"
+	Read-Host "'nPress Enter to Exit'n"
 
 	} catch {
 		Write-Output "An error occurred while renewing DHCP:"
