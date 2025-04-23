@@ -17,3 +17,4 @@ try {
 } catch {
 	Write-Host "An error has occurred."
 	Write-Host $_.Exception.Message
+}
