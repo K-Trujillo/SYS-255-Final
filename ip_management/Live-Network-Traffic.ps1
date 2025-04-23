@@ -1,7 +1,7 @@
 try { 
 	Write-Host "Monitoring the Network..."
 
-	Get-NetTCPConnection | Select-Object LocalAddress, LocalPort, RemoteAddress, RemotePort, State, Owning Process | Format-Table -AutoSize
+	Get-NetTCPConnection | Select-Object LocalAddress, LocalPort, RemoteAddress, RemotePort, State, OwningProcess | Format-Table -AutoSize
 
 	Write-Host "Mapping Connections..."
 	$connections = Get-NetTCPConnection | Select-Object LocalAddress, LocalPort, RemoteAddress, RemotePort, State, OwningProcess
