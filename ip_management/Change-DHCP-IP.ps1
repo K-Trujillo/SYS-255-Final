@@ -10,7 +10,7 @@ try {
 	Start-Sleep -Seconds 3
 	
 	Write-Host ""
-	Write-Host "Here are your new details:"
+	Write-Host "Above are your new details. Thank You!"
 	Write-Host ""
 
 	Start-Sleep -Seconds 2
