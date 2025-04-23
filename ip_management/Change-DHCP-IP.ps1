@@ -1,6 +1,6 @@
 try {
 	Write-Output "Releasing Current Address"
-	ipconfig / release
+	ipconfig /release
 
 	Start-Sleep -Seconds 5	
 
@@ -8,6 +8,7 @@ try {
 	ipconfig /renew
 
 	Write-Output "Here are your new details:"
+	
 	Get-NetIPConfiguration | Select-Object IPv4Address, InterfaceAlias, DNSServer
 	
 	Read-Host "Press Enter to Exit"
