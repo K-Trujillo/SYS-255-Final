@@ -11,12 +11,12 @@ try {
 	if (-not $geoInfo) {
 		throw "Failed to retrieve Geolocation information."
 }
-	Write-Host "IP Address: $(geoInfo.query)"
-	Write-Host "Country: $(geoInfo.country)"  
-	Write-Host "Region: $(geoInfo.regionName)"
-	Write-Host "City: $(geoInfo.city)"
-	Write-Host "ISP: $(geoInfo.isp)"
-	Write-Host "Timezone: $(geoInfo.timezone)"
+	Write-Host "IP Address: $($geoInfo.query)"
+	Write-Host "Country: $($geoInfo.country)"  
+	Write-Host "Region: $($geoInfo.regionName)"
+	Write-Host "City: $($geoInfo.city)"
+	Write-Host "ISP: $($geoInfo.isp)"
+	Write-Host "Timezone: $($geoInfo.timezone)"
 	
 
 	Read-Host "Press Enter to Exit"
