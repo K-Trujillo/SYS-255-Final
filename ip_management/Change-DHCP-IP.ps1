@@ -15,7 +15,7 @@ try {
 
 	Start-Sleep -Seconds 2
 
-	Get-NetIPConfiguration | Select-Object IPv4Address, InterfaceAlias, DNSServer
+	Invoke-Expression "Get-NetIPConfiguration | Select-Object IPv4Address, InterfaceAlias, DNSServer, DhcpServer"
 	
 	Read-Host "Press Enter to Exit"
 
