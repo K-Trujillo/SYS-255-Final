@@ -1,0 +1,9 @@
+For this one I started to understand what I was doing and started to enjoy the idea of powershell scripting. 
+In some of my other class including NET-215, I learned about DHCP and DORA and how the process works. 
+This made me want to see how I could create a script that could run this process. 
+I had also learned about this process in this class through dhcp labs.
+Throughout this creation I did run into some minor issues. 
+One that I ran into at the beginning was an error that was bringing a help tool telling me certain commands I could use with ipconfig. 
+Once I solved this problem I ran into another one where there was a struggle in my ordering. 
+The part that I was struggling with was having it tell the results were coming before they actually showed up. 
+Eventually I just decided to change the order and have the explanation with a thank you after.

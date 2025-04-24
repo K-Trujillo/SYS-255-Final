@@ -1,0 +1,5 @@
+This one may be my favorite of the scripts that I created. 
+I enjoyed the process of making it and researching the minor mistakes that I made.
+For this one I focused on understanding what the APIs were which is something that I am learning about in my python class. 
+Along with this I also used Invoke but along with that I added some failsafes to make sure that it doesn't just crash and instead gives an error.
+I really enjoy the geoplocation as I feel the amount of detail that this can go into is very cool but a little scary. 

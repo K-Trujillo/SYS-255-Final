@@ -1,0 +1,7 @@
+For this one I got some inspiration from a lab that I had in another class that focused on this topic. 
+The lab talked about the difference in private IPs and Public IPs and the idea of reserved IPs and such. 
+I wanted to create a script that would take you device and decipher what the private IP address was and what the publi IP address was.
+To do this I had to get use a website called ipinfo.io/ip.
+This showed my the public IP address. 
+I really enjoyed this one as it introduced Invoke-RestMethod and Expand Property which I then both used later.
+Overall a fun script that I think could be utilized in the future.

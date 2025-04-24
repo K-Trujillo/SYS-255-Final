@@ -1,0 +1,7 @@
+This was the first one that I created and it is a pretty simple one that basically 
+just shows what IP addresses are in use on the machine that enters the script. 
+This one took some time but that was only because my first one and I had to do 
+some research for each piece to get the basics down. 
+Although this one isn't the most helpful tool it is quick and be quite 
+informative if you need to know what the ip addresses within the machine.
+I then wanted to look into DORA and DHCP so looked into that. 

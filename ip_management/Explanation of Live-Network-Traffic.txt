@@ -1,0 +1,6 @@
+For this one I definitely got outside of my safezone. 
+I tried to really test myself on this one and it surely showed itself as I had to do some major research to get this one completed.
+At first it would just fail and fail but eventually I was able to make it work but then I was running into issues in which it just seemed off. 
+Eventually I noticed my problem which was a typo which was leading it to give the same result in the table for every slot. 
+I then got it to work but still didn't totally understand so went back to find a better some more explanation to what exactly I was looking at.
+This turned my to my final script.
