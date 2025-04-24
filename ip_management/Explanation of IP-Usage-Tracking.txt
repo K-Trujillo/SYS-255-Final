@@ -1,0 +1,5 @@
+For this one I was motivated to create this script by the network traffic script I had written before.
+I used some very similar methods to that one by accessing the localaddress, localport, remoteaddress, remoteport, state, and OwningProcess.
+For this one I added a section that looked into tracking the ip usage for each IP.
+This one wasn't as difficult as I had just done the one prior but I still had to figure out some complications with PID which took me a little bit.
+Overall a good project and enjoyed researching these networking topics.
